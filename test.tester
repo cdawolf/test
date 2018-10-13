@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int count = 1;
+    string name;
+    cout << "Enter your name." << endl;
+    cin >> name;
+    while (count <= 3)
+    {
+        cout << count;
+        cout << " knock knock knock..." << name << "!\n";
+        count++;
+    }
+}
